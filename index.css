@@ -1,0 +1,617 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.mainpage{
+    height: auto;
+    width: 100%;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.section2{
+    display: flex;
+}
+
+.description{
+    margin: 3%;
+    height: auto;
+    width: 90%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px white;
+    margin-bottom: 50px;
+    
+}
+
+.profilepic{
+    width: 100px;
+}
+
+.profilepic img{
+    height: 300px;
+    border-radius: 150px;
+}
+
+.header{
+    width: 60%;
+    text-align: left;
+    margin-top: 6%;
+    margin-left: 30%;
+    height: auto;
+    font-size: 45pt;
+    color: white;
+    font-weight: 900;
+    font-family: 'Orbitron'; /*font-family: 'Orbitron', sans-serif;*/
+    
+}
+
+.header p{
+    font-size: 30pt;  
+}
+
+.myservices{
+    height: 90%;
+    width: 30%;
+    text-align: center;
+    box-shadow: 5px 5px 10px  white;
+    border-radius: 7px;
+    margin-left: 15%;
+    margin-bottom: 15px;
+}
+
+.serviceimage img{
+    width: 100%;
+    border-radius: 3px;
+}
+.desc{
+    font-family: 'Carter One'; /*font-family: 'Carter One', cursive;*/
+    font-size: 15pt;
+    color: aliceblue;
+}
+
+.desc p{
+    text-decoration: underline;
+}
+
+.desc li{
+    font-size: 15pt;
+    text-decoration: dotted;
+
+}
+
+.myservices button{
+    padding: 3px;
+    margin: 9px;
+}
+
+.myservices button a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.projects{
+    height: 90%;
+    width: 30%;
+    margin-top: -100px;
+    margin-left: 90px;
+    text-align: center;
+    box-shadow: 5px 5px 10px  white;
+    border-radius: 7px;
+}
+
+.projectimage img{
+    width: 100%;
+    height: 50%;
+    border-radius: 3px;
+}
+
+.projectdesc{
+    font-family: 'Carter One'; /*font-family: 'Carter One', cursive;*/
+    font-size: 20pt;
+}
+
+.projectdesc p{
+    text-decoration: underline;
+    
+}
+
+.projectdesc li{
+    font-size: 15pt;
+    text-decoration: dotted;
+}
+
+.projects button{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 3px;
+    
+}
+.projects button a{
+    text-decoration: none;
+    color: black;
+}
+
+/*MY SERVICES SECTION*/
+
+#toservices{
+    background-color: rgba(0,212,255,1);
+    height: 2px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 2px;
+}
+
+#service-header{
+    font-family: 'Orbitron';
+    font-size: 30pt;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+}
+
+#myservices-indepth{
+    height: auto;
+    width: 100%;
+    background: rgb(195,34,129);
+    background: linear-gradient(80deg, rgba(195,34,129,1) 0%, rgba(253,45,45,1) 100%);
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    border-radius: 5px;
+}
+
+.portfolio-making{
+    width: 40%;
+    margin: 5%;
+    box-shadow: 5px 5px 10px black;
+    height: 60%;
+    border-radius: 5px;
+}
+.port-image img{
+    width: 100%;
+    border-radius: 5px;
+}
+.port-header{
+    font-family: 'Carter One';
+    font-size: 15pt;
+    width: 100%;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+
+.landing-page{
+    width: 40%;
+    margin: 5%;
+    box-shadow: 5px 5px 10px black;
+    height: 65%;
+    border-radius: 5px;
+}
+
+.port-desc{
+    font-family: 'Electrolize'; /*font-family: 'Electrolize', sans-serif;*/
+    text-align: center;
+    font-size: 15pt;
+    letter-spacing: 0.9px;
+    margin-bottom: 9px;
+    color: aliceblue;
+}
+#landing-image img{
+    height: 30%;
+    width: 100%;
+}
+
+.business-website{
+    width: 40%;
+    margin: 5%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+
+#toprojects{
+    background-color: rgb(255, 0, 0);
+    height: 2px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 2px;
+}
+.school-website{
+    width: 40%;
+    margin: 5%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+
+#projects-header{
+    font-family: 'Orbitron';
+    font-size: 30pt;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+/*PERSONAL PROJECTS*/
+
+#personal-projects{
+    height: auto;
+    background: rgb(0,0,0);
+    background: linear-gradient(80deg, rgba(0,0,0,1) 0%, rgba(65,32,131,1) 100%);
+    width: 100%;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.laptops{
+    width: 20%;
+    margin: 2%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px white;
+
+}
+
+.lap-image img{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.lap-desc{
+    text-align: center;
+    margin: 5px;
+    font-family: 'Electrolize';
+    color: aliceblue;
+    font-size: 14pt;
+}
+
+.lap-desc a{
+    text-decoration: none;
+    color: rgb(179, 0, 0);
+}
+
+.lap-desc h6{
+    font-size: 16pt;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.school{
+    width: 20%;
+    margin: 2%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px white;
+}
+
+.school-image img{
+    width: 100%;
+    border-radius: 5px; 
+}
+
+.school-desc{
+    text-align: center;
+    margin: 5px;
+    font-family: 'Electrolize';
+    color: aliceblue;
+    font-size: 14pt;
+}
+
+.school-desc a{
+    text-decoration: none;
+    color: rgb(179, 0, 0);
+}
+
+.school-desc h6{
+    font-size: 16pt;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.restaurant{
+    width: 20%;
+    margin: 2%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px white;
+
+}
+
+.restaurant-image img{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.restaurant-desc{
+    text-align: center;
+    margin: 5px;
+    font-family: 'Electrolize';
+    color: aliceblue;
+    font-size: 14pt;
+}
+
+.restaurant-desc a{
+    text-decoration: none;
+    color: rgb(179, 0, 0);
+}
+
+.restaurant-desc h6{
+    font-size: 16pt;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.church{
+    width: 20%;
+    margin: 2%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px white;
+
+}
+
+.church-image img{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.church-desc{
+    text-align: center;
+    margin: 5px;
+    font-family: 'Electrolize';
+    color: aliceblue;
+    font-size: 14pt;
+}
+
+.church-desc a{
+    text-decoration: none;
+    color: rgb(179, 0, 0);
+}
+
+.church-desc h6{
+    font-size: 16pt;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+#tohireme{
+    background-color: rgba(65,32,131,1);
+    height: 2px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 2px;
+}
+
+#hireme-header{
+    font-family: 'Orbitron';
+    font-size: 30pt;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+footer{
+    background: rgb(0,0,0);
+    background: linear-gradient(80deg, rgba(0,0,0,1) 0%, rgba(61,53,77,1) 100%);
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.whatsapp{
+    width: 20%;
+    margin: 2%;
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+
+}
+
+.whatsapp-desc{
+    color: white;
+    font-family: 'Orbitron';
+    font-size: 13pt;
+    font-family: 'Monoton'; /*font-family: 'Monoton', cursi*/
+    word-spacing: 3px;
+    margin: 2%;
+}
+
+.whatsapp-desc a{
+    text-decoration: none;
+    color: rgb(83, 148, 145);
+    letter-spacing: 1px;
+}
+
+.copyright{
+    color: aliceblue;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:1200px) {
+    .section2{
+        justify-content: center;
+        align-items: center;
+    }
+    .header{
+        font-size: 25pt;
+    }
+    .header p{
+        font-size: 20pt;  
+    }
+    .laptops{
+        width: 40%;
+    }
+
+    .school{
+        width: 40%;
+    }
+
+    .restaurant{
+        width: 40%;
+    }
+
+    .church{
+        width: 40%;
+    }
+ 
+    .whatsapp-desc{
+        font-size: 10pt;
+        margin: 1%;
+    }
+
+    .myservices{
+        margin-left: 4%;
+        margin-top: 20px;
+    }
+    .desc li{
+        font-size: 10pt;
+    }
+}
+
+@media screen and (max-width:900px) {
+.profilepic img{
+    height: 200px;
+    border-radius: 100px;
+    margin-left: -40%;
+}
+
+    .section1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+
+    }
+
+    .header{
+        width: 90%;
+        font-size: 15pt;
+        margin-top: 0px;
+    }
+
+    .header p{
+        font-size: 10pt;
+    }
+
+    .myservices{
+        width: 75%;
+    }
+
+    .port-desc{
+        font-size: 10pt;
+    }
+
+    #service-header{
+        font-size: 15pt;
+    }
+
+    .portfolio-making{
+        width: 90%;
+    }
+
+    .landing-page{
+        width: 90%;
+    }
+
+    .business-website{
+        width: 90%;
+    }
+
+    .school-website{
+        width: 90%;
+    }
+
+    #projects-header{
+        font-size: 15pt;
+    }
+
+    .laptops{
+        width: 90%;
+    }
+
+    .lap-desc{
+        font-size: 10pt;
+    }
+
+    .school{
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    .school-desc{
+        font-size: 10pt;
+    }
+
+    .restaurant{
+        width: 90%;
+        margin-top: 15px;
+    }
+    .restaurant-desc{
+        font-size: 10pt;
+    }
+
+    .church{
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    .church-desc{
+        font-size: 10pt;
+    }
+
+    #hireme-header{
+        font-size: 15pt;
+    }
+
+    footer{
+        align-items: center;
+        justify-content: center;
+    }
+    .whatsapp-desc{
+        font-size: 6pt;
+    }
+
+    .copyright{
+        margin-top: 6px;
+        font-size: 8pt;
+    }
+}
